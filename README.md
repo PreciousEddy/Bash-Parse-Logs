@@ -1,5 +1,4 @@
 # Bash-Parse-Logs
-# Web Logs Processor
 
 This project fetches raw web logs from a URL, saves them to a file, and processes the logs to extract specific information. The script identifies logs that contain the string `coderbyte heroku/router`, extracts the `request_id` and `fwd` values, and formats them as described below.
 
@@ -13,9 +12,9 @@ This project fetches raw web logs from a URL, saves them to a file, and processe
 
 1. **Fetching the Logs**:
    - The script uses `curl` to fetch raw logs from the following URL:
-     ```
-     https://coderbyte.com/api/challenges/logs/web-logs-raw
-     ```
+ - 
+     ```https://coderbyte.com/api/challenges/logs/web-logs-raw ```
+
    - These logs are saved to a file called `web_logs.txt`.
 
 2. **Processing the Logs**:
@@ -26,7 +25,7 @@ This project fetches raw web logs from a URL, saves them to a file, and processe
 
 ### Example Output
 
-![Terminal Output](Picture\Terminal Output.png)
+![Terminal Output](https://github.com/PreciousEddy/Bash-Parse-Logs/blob/main/Picture/Terminal%20Output.png)
 
 ## Script Usage
 
@@ -34,26 +33,23 @@ This project fetches raw web logs from a URL, saves them to a file, and processe
 
    Clone the repository:
 
-   ```git clone https://github.com/PreciousEddy/Bash-Parse-Logs.git
+   ```git clone https://github.com/PreciousEddy/Bash-Parse-Logs.git```
 
 2. **Make the Script Executable**:
 
    You need to make the script executable. Use the following command:
-   ```bash
-   chmod +x SRE.sh
+   ```nchmod +x SRE.sh ```
 
 3. **Run the Script**:
 
     After making the script executable, you can run it directly:
-    ```bash
-     ./SRE.sh
+    ```./SRE.sh```
 
 4. **Logs Processing**:
-   
-   The Script will:
+      The Script will:
 
-    * Fetch the raw logs from the URL
-    * Save the logs into a file called "web_logs.txt"
-    * Process the logs to find and output the required ```request_id``` and ```fwd``` values
+       * Fetch the raw logs from the URL
+       * Save the logs into a file called "web_logs.txt"
+       * Process the logs to find and output the required ```request_id``` and ```fwd``` values
 
----
+--
